@@ -33,3 +33,28 @@ npm ERR!     /Users/mohammad.hunan/.npm/_logs/2021-05-06T00_36_37_297Z-debug.log
 2. `rm -rf node_modules` # to delete your existing node_modules from the master branch (which includes 'web-vitals')
 3. `npm install`
 4. `npm run build`
+5. you should see something like the following: 
+```
+% npm run build
+
+> myapp@0.1.0 build /Users/mohammad.hunan/Desktop/web-vitals-bug/myapp
+> craco build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  770 B  build/static/js/runtime-main.a1094267.js
+  574 B  build/static/css/main.9d5b29c0.chunk.css
+  514 B  build/static/js/main.6e17e97a.chunk.js
+
+The project was built assuming it is hosted at ./.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+```
