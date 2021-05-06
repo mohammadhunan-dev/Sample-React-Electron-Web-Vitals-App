@@ -1,5 +1,5 @@
-const electron = require(electron);
-const path = require(path);
+const electron = require("electron");
+const path = require("path");
 
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
@@ -12,6 +12,6 @@ function createWindow() {
     height: 600,
     webPreferences: { nodeIntegration: true, contextIsolation: false },
   });
-  mainWindow.loadFile(path.join(__dirname, ../build/index.html));
+  mainWindow.loadFile(path.join(__dirname, "../build/index.html"));
 }
-app.on(ready, createWindow);
+app.on("ready", createWindow);
