@@ -58,3 +58,4 @@ Find out more about deployment here:
 
   https://cra.link/deployment
 ```
+6. To run the application: `npm start`
