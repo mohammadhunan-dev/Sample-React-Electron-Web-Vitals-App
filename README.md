@@ -30,5 +30,6 @@ npm ERR!     /Users/mohammad.hunan/.npm/_logs/2021-05-06T00_36_37_297Z-debug.log
 
 ## To run the application without 'web-vitals' (without 'web-vitals' you won't get any error when building):
 1. `git checkout web-vital-uninstalled`
-2. `npm install`
-3. `npm run build`
+2. `rm -rf node_modules` # to delete your existing node_modules from the master branch (which includes 'web-vitals')
+3. `npm install`
+4. `npm run build`
